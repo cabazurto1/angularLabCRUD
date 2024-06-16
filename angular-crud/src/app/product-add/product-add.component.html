@@ -1,8 +1,12 @@
 <h2>Add Product</h2>
-<form (ngSubmit)="addProduct()">
-    <label for="name">Name</label>
-    <input id="name" [(ngModel)]="product.name" name="name" required>
-    <label for="price">Price</label>
-    <input id="price" [(ngModel)]="product.price" name="price" required>
-    <button type="submit">Add</button>
+<form class="product-form" (ngSubmit)="addProduct()">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" [(ngModel)]="product.name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input id="price" [(ngModel)]="product.price" name="price" required>
+    </div>
+    <button class="submit-button" type="submit">Add</button>
 </form>

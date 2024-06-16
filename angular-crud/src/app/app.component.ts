@@ -25,5 +25,5 @@ import { ProductAddComponent } from './product-add/product-add.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-crud';
+  title = 'Angular-CRUD';
 }

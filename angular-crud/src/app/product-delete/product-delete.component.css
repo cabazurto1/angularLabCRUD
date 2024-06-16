@@ -1,0 +1,57 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .delete-confirmation, .loading {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .delete-confirmation p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 5px;
+  }
+  
+  .confirm-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .confirm-button:hover {
+    background-color: #da190b;
+  }
+  
+  .cancel-button {
+    background-color: #cccccc;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #999999;
+  }
+  
+  .loading p {
+    font-size: 18px;
+  }
+  

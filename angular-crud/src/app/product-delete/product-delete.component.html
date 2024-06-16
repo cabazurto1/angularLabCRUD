@@ -1,11 +1,11 @@
 <h2>Delete Product</h2>
 
-<div *ngIf="product">
+<div *ngIf="product" class="delete-confirmation">
   <p>Are you sure you want to delete the product "{{ product.name }}"?</p>
-  <button (click)="deleteProduct()">Yes, Delete</button>
-  <button (click)="cancel()">Cancel</button>
+  <button class="confirm-button" (click)="deleteProduct()">Yes, Delete</button>
+  <button class="cancel-button" (click)="cancel()">Cancel</button>
 </div>
 
-<div *ngIf="!product">
+<div *ngIf="!product" class="loading">
   <p>Loading...</p>
 </div>

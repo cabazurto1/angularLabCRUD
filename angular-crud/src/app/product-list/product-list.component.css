@@ -1,0 +1,78 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .product-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .product-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .product-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .product-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #da190b;
+  }
+  
+  .add-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .add-button:hover {
+    background-color: #007bb5;
+  }
+  

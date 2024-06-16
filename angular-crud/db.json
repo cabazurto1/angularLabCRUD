@@ -1,14 +1,19 @@
 {
   "products": [
     {
-      "id": 0,
-      "name": "ddddd",
-      "price": "900"
+      "id": "0",
+      "name": "Camista",
+      "price": "12"
     },
     {
-      "id": 0,
-      "name": "htgfghkhj",
-      "price": 0
+      "id": "1",
+      "name": "Zapatos nike",
+      "price": "44"
+    },
+    {
+      "id": "3",
+      "name": "PC",
+      "price": "1200"
     }
   ]
 }
